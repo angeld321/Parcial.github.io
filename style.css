@@ -56,9 +56,12 @@ body {
 .article img {
 
     width: 500px;
-    height: 300px; 
+    height: 300px;
+    padding-left: 20px;     
    
 } 
+
+
 
 
 .bio {
@@ -70,23 +73,27 @@ body {
     font-size: 14px;
     font-family: sans-serif;
     font-style: normal;
+    padding-left: 5px;
     
 }
 
 .content .bio p {
 
     justify-content: left;
-    font-size: 30px;
+    font-size: 20px;   
+    
 
 
 }
 
 .image img {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 60px;    
+    
 }
 
 
