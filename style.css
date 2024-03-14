@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #ffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+}
+
+
+
+.header {
+
+    background: rgb(225, 47, 47);
+    background-size: 200% 200%;
+    text-align: left;
+    padding: 20px;
+    font-family: Georgia, serif;
+    color: #ffff;
+    font-size: 1.2em;
+    margin: 0;    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-style: italic;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 20px;
+    display: flex;    
+    align-items: center;
+    justify-content: space-between; 
+    text-decoration: none;   
+    
+
+}
+
+
+
+.content{
+
+    padding-top: 150px;
+
+}
+
+.article {
+    text-align: left;
+    padding-bottom: 35px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.article img {
+
+    width: 500px;
+    height: 300px; 
+   
+} 
+
+
+.bio {
+
+    flex: 1 1 45%;
+    margin-right: 20px;
+    text-align: justify;
+    color: #000;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-style: normal;
+    
+}
+
+.content .bio p {
+
+    justify-content: left;
+    font-size: 30px;
+
+
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.footer {
+    
+    margin: 0;
+    background-color: rgb(225, 47, 47);
+    color: #ffff;
+    text-align: center;    
+    font-family: Georgia, serif;    
+    height: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    font-style: italic;
+    padding: 20px;   
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+
+ }
+
+
+ /* NAVBAR */
+
+
+.header .navbar {
+
+    position: relative;
+    display: flex;
+
+}
+
+
+.header .navbar li {
+
+    list-style: none;
+    margin-left: 10px;
+
+}
+
+
+.header .navbar li a { 
+
+    text-decoration: none;
+    color: #ffff;
+    font-weight: 600;
+    padding-right: 50px;
+    transition: 0.3s;
+    font-size: 1em; 
+    justify-content: space-between; 
+    margin-left: 20px;  
+
+
+}
+/*
+.header .head a {
+
+    
+    text-decoration: none;
+    decoration: none;
+    color: #ffff;
+    font-weight: 600;
+    padding-right: 50px;
+    transition: 0.3s;
+    font-size: 1em; 
+    justify-content: space-between; 
+    margin-left: 20px; 
+    
+
+}
+
+
+
+.header .head a:hover {
+
+    color: #ffffd5;
+    font-size: 1.2em;
+
+}
+
+*/
+
+.header .navbar li a:hover  {
+
+    color: #ffffd5;
+    font-size: 1.2em;
+
+
+}
+
+
+
+
+
